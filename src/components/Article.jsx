@@ -1,20 +1,11 @@
-const Article = () => {
-	const name = "aldo"
-	const prodis = ["TI", "ILKOM", "TS"]
-
+const Article = (props) =>{
 	return (
 		<>
-			<div>{name}</div>
-			<div>
-				{prodis.map((prodi) => {
-					return (
-						<>
-							<div>{prodi}</div>
-							<div>{prodi}</div>
-						</>
-					)
-				})}
-			</div>
+			<div>{props.name}</div>
+			
+			<div>{props.titles.map((title) =>{
+				return <div key={title}>{title}</div>
+			})}</div>
 		</>
 	)
 }

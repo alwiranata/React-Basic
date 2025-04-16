@@ -5,7 +5,7 @@ const App = () =>{
   return (
     <>
     <div className='App'>
-     <Article/>
+     <Article name="aldo" titles={["Next Js", "ReactJS"]}/>
     </div>
     </>
   )
