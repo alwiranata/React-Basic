@@ -1,11 +1,10 @@
 const Article = (props) =>{
 	return (
 		<>
-			<div>{props.name}</div>
-			
-			<div>{props.titles.map((title) =>{
-				return <div key={title}>{title}</div>
-			})}</div>
+			<h3>Title : {props.name}</h3>
+			<small>Date : {props.Date}</small>
+			<small>Description : {props.Description}</small>
+		
 		</>
 	)
 }

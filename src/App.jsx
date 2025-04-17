@@ -1,11 +1,10 @@
 import './App.css'
-import Article from './components/Article'
-
+import HomePage from './pages'
 const App = () =>{
   return (
     <>
     <div className='App'>
-     <Article name="aldo" titles={["Next Js", "ReactJS"]}/>
+      <HomePage/>
     </div>
     </>
   )
