@@ -4,7 +4,7 @@ const Article = (props) => {
 		<h3>Title : {props.title}</h3>
 		<small>Date : {props.date}</small><br />
 		<small>Description : {props.description}</small>
-		<hr />
+		
 	  </>
 	);
   };
