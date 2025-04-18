@@ -1,12 +1,13 @@
-const Article = (props) =>{
+const Article = (props) => {
 	return (
-		<>
-			<h3>Title : {props.name}</h3>
-			<small>Date : {props.Date}</small>
-			<small>Description : {props.Description}</small>
-		
-		</>
-	)
-}
-
-export default Article
+	  <>
+		<h3>Title : {props.title}</h3>
+		<small>Date : {props.date}</small><br />
+		<small>Description : {props.description}</small>
+		<hr />
+	  </>
+	);
+  };
+  
+  export default Article;
+  
