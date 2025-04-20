@@ -12,7 +12,7 @@ const Search = (props) => {
 				Search : <input onChange={handleSearch} />
 			</div>
 
-			<p>Ditemukan 0 data dari pencarian kata {search}</p>
+			<p>Ditemukan {props.total} data dari pencarian kata {search}</p>
 		</>
 	)
 }
