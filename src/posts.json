@@ -1,18 +1,23 @@
 [
     {
       "title": "Enemy of the State",
-      "date": "2023-10-01",
-      "description": "A lawyer is framed"
+      "date": "2023-12-01",
+      "description": "A lawyer is framed",
+      "isNew" :true
     },
     {
       "title": "Halo of the State",
       "date": "2023-10-01",
-      "description": "A lawyer is framed"
+      "description": "A lawyer is framed",
+      "isNew" :false
+
     },
     {
       "title": "Pw of the State",
-      "date": "2023-10-01",
-      "description": "A lawyer is framed"
+      "date": "2023-11-01",
+      "description": "A lawyer is framed",
+      "isNew" :false
+
     }
   ]
   
