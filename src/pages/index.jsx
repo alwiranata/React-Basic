@@ -1,7 +1,7 @@
 import postsData from '../posts.json';
 import Article from '../components/Article';
 import Search from '../components/Search';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 const HomePage = () =>{
 
     const [posts ,setPosts] =useState(postsData)
@@ -14,6 +14,18 @@ const HomePage = () =>{
         setPosts(filteredPosts)
         setTotalPosts(filteredPosts.length)
     }
+
+    useEffect(() => {
+        const api = () => {
+          console.log("📢 API Called")
+        }
+        api()
+        console.log("🟢 Komponen HomePage muncul")
+    
+        return () => {
+          console.log("🔴 Komponen HomePage di-unmount")
+        }
+      }, [])
 
     return(
         <div>
